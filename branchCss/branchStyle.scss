@@ -1,0 +1,52 @@
+
+.content{
+	background:#fff;
+	padding:0.1rem;
+}
+.info{
+	height:1.15rem;
+	background:url(../images/bg_03.jpg) no-repeat;
+	background-size:100% 1.15rem;
+	width:100%;
+	position:relative;
+	margin-bottom:0.1rem;
+	span{
+		position:absolute;
+		top:0.1rem;
+		color:#fff;
+		font-size:0.2rem;
+		left:0.15rem;
+	}
+	b{
+		position:absolute;
+		top:0.02rem;
+		left:0.4rem;
+		font-size:0.5rem;
+		color:#fff;
+	}
+	small{
+		position:absolute;
+		right:0.1rem;
+		top:0.26rem;
+		font-size:0.22rem;
+		color:#fff;
+	}
+	div{
+		position:absolute;
+		width:90%;
+		bottom:0;
+		left:0;
+		font-size:0.1rem;
+		line-height:0.2rem;
+		color:gray;
+		padding-left:0.1rem;
+		padding-right:0.1rem;
+		p:first-child{
+			width:100%;
+			color:#08ab69;
+			text-overflow:ellipsis;
+			overflow:hidden;
+			white-space:nowrap;
+		}
+	}
+}
